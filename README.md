@@ -8,8 +8,8 @@ Welcome to the Procurement project's documentation. Below is a list of key docum
 | 2 | Release Documents | Information about project releases and versioning | [Release Note](https://github.com/umranBatuwah/Procurement-Docs/blob/main/PROCUREMENT%20release%20note.md) |
 | 3 | Scope Documents | Defines the scope of the Procurement project | [Scope Documents](https://github.com/umranBatuwah/Procurement-Docs/blob/main/Project%20Scope%20Document.md) |
 | 4 | Design Documents | Detailed design specifications for the system | [Design Documents](./docs/DesignDocuments.pdf) |
-| 5 | API Specs | Specifications for the Procurement system APIs | [API Specs](./docs/APISpecs.yaml) |
-| 6 | Pseudocode | Pseudocode for algorithmic representations | [Pseudocode](./docs/Pseudocode.md) |
+| 5 | API Specs | Specifications for the Procurement system APIs | [API Specs](https://github.com/umranBatuwah/Procurement-Docs/blob/main/Api-docs/Procurement-Api-Specs.yaml) |
+| 6 | Pseudocode | Pseudocode for algorithmic representations | [Pseudocode](https://github.com/umranBatuwah/Procurement-Docs/blob/main/Api-docs/psuedocode.md) |
 | 7 | Test Cases | Test scenarios and cases for the system | [Test Cases](./docs/TestCases.xlsx) |
 
 <!-- ## Getting Started
