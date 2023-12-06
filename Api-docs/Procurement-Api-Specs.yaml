@@ -1,0 +1,294 @@
+openapi: 3.0.0
+info:
+  title: Procurement Service API
+  version: 1.0.0
+
+servers:
+  - url: https://xyugwn38la.execute-api.us-east-1.amazonaws.com/dev  # Adjust the port number as needed
+
+tags:
+  - name: Request
+    description: Operations related to requests
+  - name: Approvers
+    description: Operations related to approvers
+  - name: Purchase Order
+    description: Operations related to purchase orders
+
+paths:
+  /login:
+    post:
+      summary: User Login
+      operationId: userLogin
+      tags:
+        - Authentication
+      requestBody:
+        description: User credentials for login
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - email
+                - password
+      responses:
+        '200':
+          description: Successful login
+        '401':
+          description: Invalid credentials
+
+  /request:
+    post:
+      summary: Add Request
+      operationId: addRequest
+      tags:
+        - Request
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+        type: aws_proxy
+      responses:
+        '200':
+          description: Successful operation
+
+    get:
+      summary: Search Requests
+      operationId: searchRequests
+      tags:
+        - Request
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: GET
+        type: aws_proxy
+      responses:
+        '200':
+          description: Successful operation
+
+  /request/{id}:
+    delete:
+      summary: Delete Request
+      operationId: deleteRequest
+      tags:
+        - Request
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: DELETE
+        type: aws_proxy
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+    put:
+      summary: Update Request
+      operationId: updateRequest
+      tags:
+        - Request
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: PUT
+        type: aws_proxy
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+  /request/deactivate/{id}:
+    post:
+      summary: Deactivate Request
+      operationId: deactivateRequest
+      tags:
+        - Request
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+        type: aws_proxy
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+  /request/approve/{id}:
+    post:
+      summary: Approve Request
+      operationId: approveRequest
+      tags:
+        - Request
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+        type: aws_proxy
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+  /approvers:
+    post:
+      summary: Add Approvers
+      operationId: addApprovers
+      tags:
+        - Approvers
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+      responses:
+        '200':
+          description: Successful operation
+
+    get:
+      summary: Search Approvers
+      operationId: searchApprovers
+      tags:
+        - Approvers
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: GET
+        type: aws_proxy
+      responses:
+        '200':
+          description: Successful operation
+
+  /approvers/{id}:
+    delete:
+      summary: Delete Approvers
+      operationId: deleteApprovers
+      tags:
+        - Approvers
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: DELETE
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+    put:
+      summary: Update Approvers
+      operationId: updateApprovers
+      tags:
+        - Approvers
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: PUT
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+  /purchase_order:
+    post:
+      summary: Add Purchase Order
+      operationId: addPurchaseOrder
+      tags:
+        - Purchase Order
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+      responses:
+        '200':
+          description: Successful operation
+
+    get:
+      summary: Search Purchase Orders
+      operationId: searchPurchaseOrders
+      tags:
+        - Purchase Order
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: GET
+        type: aws_proxy
+      responses:
+        '200':
+          description: Successful operation
+
+  /purchase_order/{id}:
+    delete:
+      summary: Delete Purchase Order
+      operationId: deletePurchaseOrder
+      tags:
+        - Purchase Order
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: DELETE
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+    put:
+      summary: Update Purchase Order
+      operationId: updatePurchaseOrder
+      tags:
+        - Purchase Order
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: PUT
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+
+  /purchase_order/deactivate/{id}:
+    post:
+      summary: Deactivate Purchase Order
+      operationId: deactivatePurchaseOrder
+      tags:
+        - Purchase Order
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
