@@ -1,7 +1,7 @@
 # Release Note: Procurement Web Application
 
 **Release Version:** 0.0.0.1  
-**Release Date:** 05-12-2023
+**Release Date:** 20-12-2023
 
 We are excited to announce the release of version 0.0.0.1 of our software. This initial release marks the beginning of our journey, and we are committed to delivering continuous improvements and enhancements in the future.
 
@@ -66,4 +66,4 @@ We are excited to announce the release of version 0.0.0.1 of our software. This 
 Thank you for being a part of the beginning of Procurement Web Application Version 0.0.0.1.
 
 **SYNECTIKS**  
-**05/12/2023**
+**20/12/2023**
