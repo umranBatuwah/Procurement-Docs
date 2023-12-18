@@ -38,7 +38,9 @@ The user must have valid login credentials and appropriate access rights to acce
      - Seek Quotes: Purchase Order Confirm - Created time 04/07/2023:08:00:00 am.
      - CAB Review: Waiting for Delivery - Created time 04/07/2023:08:00:00 am.
      - Implement Request Closed - Created time 04/07/2023:08:00:00 am. Validate.
-
+<p>
+   <img src="../images/request timeline.jpg">
+   </p>
 6. **Order Line Details:**
    - The request timeline includes details for each item in the request:
      - Line Number (automatically assigned).
@@ -47,7 +49,9 @@ The user must have valid login credentials and appropriate access rights to acce
      - Unit.
      - Price.
      - Total Cost.
-
+<p>
+   <img src="../images/order line.jpg">
+   </p>
 ## Post Condition
 The user has a comprehensive view of the request timeline, including approval status, delivery status, and comments. Any new comments are added to the system.
 
