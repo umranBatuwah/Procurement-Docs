@@ -24,7 +24,9 @@ The user must have valid login credentials and appropriate access rights to acce
    - The top panel displays the following options:
      - "Create New Request" button to initiate a new procurement request.
      - Numbers and categories for "All Request," "Pending Request," "Reject Request," "Approve Request," and "On Hold Request."
-
+<p>
+   <img src="../images/top pannel.jpg">
+   </p>
 4. **Filtering Requests:**
    - The requestor interacts with the "Filter" dropdown button to select filtering criteria such as location, request type, creation date, delivery date, total cost, priority, and action status.
 
@@ -42,7 +44,9 @@ The user must have valid login credentials and appropriate access rights to acce
 
 9. **Pagination:**
    - The requestor navigates through pages using the "Previous Page" and "Next Page" options to view additional requests.
-
+<p>
+   <img src="../images/pagination.jpg">
+   </p>
 ## Post Condition
 Upon performing actions or applying filters, the system updates the display to reflect the chosen criteria. Any changes made to the request status are reflected in the system.
 
