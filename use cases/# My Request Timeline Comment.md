@@ -27,7 +27,9 @@ The user must have valid login credentials and appropriate access rights to acce
 
 4. **Commenting:**
    - The user can add comments or view existing comments in the comment box.
-
+   <p>
+   <img src="images/commenting.jpg">
+   </p>
 5. **Request Timeline:**
    - The request timeline provides a chronological overview of the request's progress:
      - Initiated the Request: Created time 04/07/2023:08:00:00 am.

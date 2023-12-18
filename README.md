@@ -16,6 +16,8 @@ Welcome to the Procurement project's documentation. Below is a list of key docum
 
 If you are new to the project, you may find the following resources helpful:
 
+- ![image info](./images/aws.webp)
+
 - [Project Overview](./docs/ProjectOverview.pdf)
 - [Installation Guide](./docs/InstallationGuide.md)
 
