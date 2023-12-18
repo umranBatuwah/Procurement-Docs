@@ -25,7 +25,7 @@ The user must have valid login credentials and appropriate access rights to acce
      - "Create New Request" button to initiate a new procurement request.
      - Numbers and categories for "All Request," "Pending Request," "Reject Request," "Approve Request," and "On Hold Request."
 <p>
-   <img src="../images/top pannel.jpg">
+   <img src="../images/top pannel.png">
    </p>
 4. **Filtering Requests:**
    - The requestor interacts with the "Filter" dropdown button to select filtering criteria such as location, request type, creation date, delivery date, total cost, priority, and action status.
