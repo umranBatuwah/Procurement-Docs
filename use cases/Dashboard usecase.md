@@ -22,6 +22,9 @@ Upon successful completion of the use case:
 
 1. The admin starts the process by logging into the system using their valid credentials.
 2. The dashboard loads, presenting an initial overview with the top panel displaying key metrics:
+<p>
+   <img src="../images/dashboard3.jpg">
+   </p>
    - Purchase Requisitions
    - Purchase Orders
    - Invoice Count
