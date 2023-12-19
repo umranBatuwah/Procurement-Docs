@@ -32,17 +32,25 @@ The dashboard's top panel displays the following metrics:
 
 ### Following Panels Show:
 - The Recent Overview of The Requestor Dashboard.
-
+<p>
+   <img src="../images/approver1.jpg">
+   </p>
 ### Request Trend:
 - The vertical bar graph updates to display the number of requests based on the selected time frame.
-
+<p>
+   <img src="../images/requesttrend.jpg">
+   </p>
 ### Requisition Stats Panel:
 - The donut chart updates to represent requisition statistics based on the selected time frame.
-
+<p>
+   <img src="../images/requisitionstats.jpg">
+   </p>
 ### Spend by Month Panel:
 - The line graph displays spending information for the entire year.
 - User interacts with a dropdown to select the time frame (day, week, month, or year).
-
+<p>
+   <img src="../images/month.jpg">
+   </p>
 ## Alternative Flow (Error Handling):
 - Invalid Credentials:
   - If the user enters invalid credentials, an error message is displayed, prompting the user to enter valid information.
