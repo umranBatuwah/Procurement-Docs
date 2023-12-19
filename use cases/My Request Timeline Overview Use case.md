@@ -55,7 +55,7 @@ The user must have valid login credentials and appropriate access rights to acce
      - Price.
      - Total Cost.
 <p>
-   <img src="../images/orderline2.jpg">
+   <img src="../images/orderline3.jpg">
    </p>
 ## Post Condition
 Upon successful submission, the requisition is added to the system, and relevant stakeholders are notified. The request timeline is updated based on the progress of the requisition.
