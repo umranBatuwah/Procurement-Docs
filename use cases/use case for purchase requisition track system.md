@@ -19,7 +19,9 @@ The requester gains insights into the status and details of the purchase requisi
 ### Login and Overview:
 - The requester logs into the purchase requisition tracking system.
 - The top panel displays the Request Overview Panel with details such as creation date, required delivery date, request type, department, priority, and location.
-
+<p>
+   <img src="../images/1.jpg">
+   </p>
 ### Request Timeline Panel:
 - The requester navigates to the Request Timeline Panel.
 - The timeline updates include:
@@ -29,7 +31,9 @@ The requester gains insights into the status and details of the purchase requisi
   - Waiting for delivery.
   - Order confirmation.
   - Request closed.
-
+<p>
+   <img src="../images/2.jpg">
+   </p>
 ### Order Line Panel:
 - The requester checks the Order Line Panel.
 - Details displayed include:
@@ -39,7 +43,9 @@ The requester gains insights into the status and details of the purchase requisi
   - Unit
   - Price
   - Total cost.
-
+<p>
+   <img src="../images/3.jpg">
+   </p>
 ### Tracking Updates:
 - The requester monitors the timeline for updates, providing a chronological view of the request's progress.
 - Checks the status and any recent updates to understand where the request is in the procurement process.
