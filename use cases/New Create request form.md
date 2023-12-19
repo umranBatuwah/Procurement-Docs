@@ -27,10 +27,14 @@ The user must have valid login credentials and appropriate access rights to acce
      - Select Location: Chosen from a dropdown menu.
      - Select Priority: Chosen from a dropdown menu.
      - Notes: Any additional information is entered in a free-text field.
-
+<p>
+   <img src="../images/toppannel1.jpg">
+   </p>
 4. **Order Approval Indication:**
    - The requestor indicates whether the order requires approval by checking the "This order needs your approval" checkbox.
-
+<p>
+   <img src="../images/submit.jpg">
+   </p>
 5. **Action Buttons:**
    - The requestor can choose to:
      - Click the "Submit" button to submit the request.
@@ -41,10 +45,14 @@ The user must have valid login credentials and appropriate access rights to acce
 
 7. **Order Line Details (For Each Item):**
    - The requestor fills in details for each item in the order line, including item name, quantity, unit, price, and any additional actions.
-
+<p>
+   <img src="../images/orderline4.jpg">
+   </p>
 8. **Attachment Document:**
    - The user has the option to attach relevant documents to the requisition.
-
+<p>
+   <img src="../images/attachment.jpg">
+   </p>
 9. **Comment:**
    - The user can add comments to provide additional information or context.
 
