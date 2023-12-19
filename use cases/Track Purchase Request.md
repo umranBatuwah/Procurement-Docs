@@ -28,7 +28,7 @@ The user clicks on a specific request in the table on the request screen.
    </p>
 7. The system displays the Order line item table with the fields Name, Category, supplier, quantity, unit, price, and total cost.
 8. <p>
-   <img src="../images/orderline.jpg">
+   <img src="../images/ordeline.jpg">
    </p>
 9. The user clicks on the attachments tab.
 10. The system displays all the attachments related to the request in a table with fields like File name, file size, date uploaded, and Uploaded by.
