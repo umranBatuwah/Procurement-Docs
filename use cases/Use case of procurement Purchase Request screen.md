@@ -15,7 +15,9 @@ This use case outlines the functionality of the Procurement Purchase Request Scr
 ## Top Panel:
 - **Pending Notification:**
   Upon approval of the request, a pending notification is displayed.
-
+<p>
+   <img src="../images/pending.jpg">
+   </p>
 ## Second Panels:
 Display the following request details:
 - Request No.
@@ -25,26 +27,34 @@ Display the following request details:
 - Department
 - Priority
 - Location
-
+<p>
+   <img src="../images/location.jpg">
+   </p>
 ### Requester Details:
 - Name: [Requester Name]
 - Contact: [Requester Contact]
 - Email: [Requester Email]
-
+<p>
+   <img src="../images/justin.jpg">
+   </p>
 ## Attach Documents:
 - The Requester attaches relevant documents to support the procurement request.
 
 ## After Attaching Documents:
 **Action:**
 The Requester reviews the summarized request details through PDF form or Excel sheets.
-
+<p>
+   <img src="../images/attach2.jpg">
+   </p>
 ## Two Right-Hand Panels:
 Display action buttons:
 - Approve
 - Cancel Request
 - Modify Request
 - Mark as Completed
-
+<p>
+   <img src="../images/approve.jpg">
+   </p>
 ## Three Panels:
 Display details of order lines:
 - Line
@@ -55,12 +65,16 @@ Display details of order lines:
 - Price
 - Total Cost
 - Status
-
+  <p>
+   <img src="../images/orderline6.jpg">
+   </p>
 ## Comment Section:
 A comment section is provided with a drop-down for actions:
 - Resolve
 - Reply
-
+<p>
+   <img src="../images/comment2.jpg">
+   </p>
 ## Postconditions:
 - The Procurement Requester has submitted or managed a purchase request with all relevant details.
 - The system updates the status of the request based on actions taken.
