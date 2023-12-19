@@ -31,7 +31,9 @@ The user must have valid login credentials and appropriate access rights to acce
      - Department (Finance Department).
      - Requestor Name (e.g., justinseptimus@example.com), Request Cost: $200.
      - Approver Name (e.g., hariskaif@example.com), Final Approver.
-
+<p>
+   <img src="../images/requestoverview.jpg">
+   </p>
 4. **Request Timeline:**
    - The request timeline provides a chronological overview of the requisition's progress:
      - Initiated the Request: Created time 04/07/2023:08:00:00 am.
@@ -41,7 +43,9 @@ The user must have valid login credentials and appropriate access rights to acce
      - CAB Review: Waiting for Delivery - Created time 04/07/2023:08:00:00 am.
      - Implement Request Closed - Created time 04/07/2023:08:00:00 am.
      - Validate.
-
+<p>
+   <img src="../images/requesttimeline2.jpg">
+   </p>
 5. **Order Line Details:**
    - The user enters details for each item in the requisition:
      - Line Number (automatically assigned).
@@ -50,7 +54,9 @@ The user must have valid login credentials and appropriate access rights to acce
      - Unit.
      - Price.
      - Total Cost.
-
+<p>
+   <img src="../images/orderline2.jpg">
+   </p>
 ## Post Condition
 Upon successful submission, the requisition is added to the system, and relevant stakeholders are notified. The request timeline is updated based on the progress of the requisition.
 
