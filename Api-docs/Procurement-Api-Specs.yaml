@@ -7,12 +7,16 @@ servers:
   - url: https://xyugwn38la.execute-api.us-east-1.amazonaws.com/dev  # Adjust the port number as needed
 
 tags:
+  - name: Authentication
+    description: Operations related to authentication
   - name: Request
     description: Operations related to requests
   - name: Approvers
     description: Operations related to approvers
   - name: Purchase Order
     description: Operations related to purchase orders
+  - name: Users
+    description: Operations related to users
 
 paths:
   /login:
@@ -289,6 +293,66 @@ paths:
           required: true
           schema:
             type: string
+      responses:
+        '200':
+          description: Successful operation
+
+  /user:
+    post:
+      summary: Add User
+      operationId: addUser
+      tags:
+        - Users
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: POST
+      requestBody:
+        description: User details for creation
+        required: true
+        content:
+          application/json:
+            example:
+              role: admin
+              username: test
+              email: john@example.com
+              password: password
+              firstname: john
+              lastname: doe
+            schema:
+              type: object
+              properties:
+                role:
+                  type: string
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+                firstname:
+                  type: string
+                lastname:
+                  type: string
+              required:
+                - role
+                - username
+                - email
+                - password
+                - firstname
+                - lastname
+      responses:
+        '200':
+          description: Successful operation
+
+    get:
+      summary: Get Users
+      operationId: getUsers
+      tags:
+        - Users
+      x-amazon-apigateway-integration:
+        uri: arn:aws:apigateway:${self:provider.region}:lambda:path/2015-03-31/functions/${self:provider.environment.LAMBDA_ROLE}/invocations
+        httpMethod: GET
+        type: aws_proxy
       responses:
         '200':
           description: Successful operation
