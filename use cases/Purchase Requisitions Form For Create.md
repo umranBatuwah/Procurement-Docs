@@ -24,7 +24,9 @@ The user must have valid login credentials and appropriate access rights to acce
    - The top panel displays the following items:
      - "Track Request" button for monitoring the status of submitted requisitions.
      - A success message indicating that the requisition has been successfully submitted.
-
+ <p>
+   <img src="../images/createsuccess.jpg">
+   </p>
 4. **Form Entry:**
    - The user fills in the required details in the form:
      - Required Delivery Date
@@ -32,11 +34,15 @@ The user must have valid login credentials and appropriate access rights to acce
      - Select Location
      - Select Priority
      - Notes (free-text input)
-
+ <p>
+   <img src="../images/form.jpg">
+   </p>
 5. **Repeat Request Confirmation:**
    - After submitting the form, a confirmation message asks the user if they are sure they want to repeat the requisition.
    - Options include "Repeat" and "Cancel”.
-
+ <p>
+   <img src="../images/repeat.jpg">
+   </p>
 6. **Order Line Details:**
    - The user enters details for each item in the requisition:
      - Line Number (automatically assigned)
@@ -44,13 +50,19 @@ The user must have valid login credentials and appropriate access rights to acce
      - Quantity
      - Unit
      - Price
-
+ <p>
+   <img src="../images/orderline4.jpg">
+   </p>
 7. **Attachment Document:**
    - The user has the option to attach relevant documents to the requisition.
-
+ <p>
+   <img src="../images/attach.jpg">
+   </p>
 8. **Comment:**
    - The user can add comments to provide additional information or context.
-
+ <p>
+   <img src="../images/comment1.jpg">
+   </p>
 9. **Repeat Request Confirmation (Post Submission):**
    - After confirming the repeat action, the system verifies whether repeating the requisition is possible.
    - If possible, the requisition is repeated.

@@ -31,25 +31,35 @@ Upon successful completion of the use case:
 
    A. **Spend Analysis Panel:**
       - Views a dynamic horizontal bar graph representing the top spending categories. This provides a visual breakdown of where the procurement budget is allocated.
-
+<p>
+   <img src="../images/spenanalysis.jpg">
+   </p>
    B. **Requisition Stats Panel:**
       - Examines a detailed donut chart offering insights into requisition statistics. The admin moves to the Requisition Stats Panel, now enhanced to provide more detailed information.
       - Within the donut chart, different segments represent the status of requisitions:
          - Approved Requisitions
          - In Progress Requisitions
          - Rejected Requisitions
-
+<p>
+   <img src="../images/requestionstats.jpg">
+   </p>
    C. **Purchase Order Panel:**
       - Analyses a complete line graph that illustrates the status of active, approved, and settled purchase orders throughout the year.
       - This helps the admin track the progress and efficiency of the procurement process.
-
+<p>
+   <img src="../images/purchaseorder2.jpg">
+   </p>
    E. **Monthly Expenses Panel:**
       - Views a vertical bar graph providing a detailed monthly breakdown of expenses. This enables the admin to identify patterns, forecast future expenses, and ensure budget compliance.
-
+<p>
+   <img src="../images/monthlyexpenses.jpg">
+   </p>
    D. **Notifications and Activities:**
       - The top right panel provides notifications and activities.
       - The admin can view alerts, updates, and recent activities related to the procurement process.
-
+<p>
+   <img src="../images/notifications.jpg">
+   </p>
 ## Alternative Flow:
 
 - If the admin encounters issues logging in:

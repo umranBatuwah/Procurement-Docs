@@ -26,15 +26,24 @@ The **Purchase Request Screen for Approver** is used to review and approve purch
 1. The Approver logs in to the system and navigates to the Purchase Request screen.
 2. The Approver reviews the list of purchase requests in the table or applies filters to view specific requests.
 3. The Approver selects a purchase request from the table by clicking on it.
-4. The system displays the details of the selected purchase request, including the requestor's name, expected delivery date, location, total cost, and line-item details.
-5. The Approver reviews the purchase request and any attached files, such as quotes or invoices.
-6. If the purchase request meets the Approver's standards, they click the "Approve" button.
+4. <p>
+   <img src="../images/dashboard1.jpg">
+   </p>
+5. The system displays the details of the selected purchase request, including the requestor's name, expected delivery date, location, total cost, and line-item details.
+6. The Approver reviews the purchase request and any attached files, such as quotes or invoices.
+7. If the purchase request meets the Approver's standards, they click the "Approve" button.
+8.  <p>
+   <img src="../images/purchaserequest.jpg">
+   </p>
    - The system updates the status of the purchase request to "Approved" and sends a notification to the Requester.
-7. If the purchase request does not meet the Approver's standards, they click the "Reject" button.
+   <p>
+   <img src="../images/purchase2.jpg">
+   </p>
+9. If the purchase request does not meet the Approver's standards, they click the "Reject" button.
    - The system updates the status of the purchase request to "Rejected" and sends a notification to the Requester explaining the reason for rejection.
-8. If the Approver wants to modify the purchase request, they click the "Modify" button.
+10. If the Approver wants to modify the purchase request, they click the "Modify" button.
    - The system allows the Approver to modify the purchase request and resubmit it for approval.
-9. Once the Approver has taken action on the purchase request, they return to the Purchase Request screen to review any remaining purchase requests.
+11. Once the Approver has taken action on the purchase request, they return to the Purchase Request screen to review any remaining purchase requests.
 
 ## Alternative Flow:
 
