@@ -45,23 +45,23 @@
 
 - ` `Displays the number of requests that have been rejected.
 
-![](Aspose.Words.0d368c61-33bf-47bc-a4a3-2036734b9611.001.png)
-
-
+<p>
+   <img src="../images/rejected.jpg">
+   </p>
 **2 Request Stats:**
 
 - The user explores the request status panel, utilizing the dropdown to select the desired time frame (day, week, month, year) and reviews the donut chart for request statistics.
-
-![A screenshot of a computerDescription automatically generated](Aspose.Words.0d368c61-33bf-47bc-a4a3-2036734b9611.002.png)
-
+<p>
+   <img src="../images/stats.jpg">
+   </p>
 
 **3. Request Trend:**
 
 - Presents a vertical bar graph illustrating the trend of procurement requests over a specified period.
 - Allows requestors to identify patterns and fluctuations in request activity.
-
-![A graph with numbers and a barDescription automatically generated with medium confidence](Aspose.Words.0d368c61-33bf-47bc-a4a3-2036734b9611.003.png)
-
+<p>
+   <img src="../images/trend.jpg">
+   </p>
 
 **Alternative flow:**
 
