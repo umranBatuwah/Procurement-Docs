@@ -7,7 +7,7 @@ The **Purchase Request Screen for Approver** is used to review and approve purch
 ### Actor:
 - Approver
 - Requestor
-
+hand 
 ### Trigger:
 - The trigger for this use case is when a requestor submits a purchase request.
 
