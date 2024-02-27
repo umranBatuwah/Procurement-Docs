@@ -65,4 +65,3 @@ The requester gains insights into the status and details of the purchase requisi
 - If there are discrepancies in the order line details:
   - The system highlights the discrepancies, and the requester can communicate with the procurement officer to address the issues.
 
-**Note:** The use case describes a simplified procurement tracking process, and in a real-world scenario, the steps and details may vary based on the specific procurement system and organization's processes.
